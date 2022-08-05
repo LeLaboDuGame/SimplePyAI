@@ -13,7 +13,7 @@ The model use the sigmoïde activation function.
     
 EXAMPLE:
 
-    nn = Neural_Network(x, y, layers=[3600, 64, 64, 128, 64, 1], learning_rate=0.001, reload_last_session=False)
+    nn = Neural_Network(x, y, layers=[3600, 64, 32, 64, 1], learning_rate=0.001, reload_last_session=False)
     nn.train(1300, show=True, save=True)
     print(nn.predict(image)) #return the output with a input (False if is < 0.5 and True if is > 0.5)
 
@@ -33,7 +33,7 @@ TO START:
     -You can set the 'learning_rate' more is small more he understands, but it will take more repetition in
     training.
 
-    -'reload_last_session' (default: False) is to reload the last session (if is the first sessions set to False plz)
+    -'reload_last_session' (default: False) is to reload the last session (if is the first sessions set to False)
 
 TO TRAIN:
 
@@ -41,6 +41,7 @@ TO TRAIN:
 
     -'show' (default: True) is to show how the graphique of your model
 
-    -'save' (default: False) is to save your model (you can reload your model with the 'reload_last_session' in init
+    -'save' (default: False) is to save your model (you can reload your model with the 'reload_last_session'
+    in init.
 
 # Thank you very much to use this library !
