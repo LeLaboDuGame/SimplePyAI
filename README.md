@@ -11,6 +11,10 @@ You can use this library on all your project !
 
 #   HOW TO USE:
     
+    
+### ON FIRST:
+    Download all of this library: pickle,matplotlib,sklearn,tqdm,numpy
+    
 ## EXAMPLE:
 
     nn = Neural_Network(x, y, layers=[3600, 64, 32, 64, 1], learning_rate=0.001, reload_last_session=False)
@@ -18,9 +22,6 @@ You can use this library on all your project !
     print(nn.predict(image)) #return the output with a input (False if is < 0.5 and True if is > 0.5)
 
 ## TO START:
-    
-    ### ON FIRST:
-        Download all of this library: pickle,matplotlib,sklearn,tqdm,numpy
 
     -To init you must send 'x' and 'y' list (or numpy array).
     'x' is your input and 'y' is your output.
