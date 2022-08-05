@@ -7,19 +7,19 @@ I present you my project of neural network !
 Just for the credit : LeLaboDuGame on Twitch -> https://twitch.tv/LeLaboDuGame
 You can use this library on all your project !
 
-The model use the sigmoïde activation function.
+**The model use the sigmoïde activation function.**
 
 #   HOW TO USE:
     
-EXAMPLE:
+## EXAMPLE:
 
     nn = Neural_Network(x, y, layers=[3600, 64, 32, 64, 1], learning_rate=0.001, reload_last_session=False)
     nn.train(1300, show=True, save=True)
     print(nn.predict(image)) #return the output with a input (False if is < 0.5 and True if is > 0.5)
 
-TO START:
+## TO START:
     
-    ON FIRST:
+    ### ON FIRST:
         Download all of this library: pickle,matplotlib,sklearn,tqdm,numpy
 
     -To init you must send 'x' and 'y' list (or numpy array).
@@ -38,7 +38,7 @@ TO START:
 
     -'reload_last_session' (default: False) is to reload the last session (if is the first sessions set to False)
 
-TO TRAIN:
+## TO TRAIN:
 
     -'n_iter' is the number of train repetition
 
