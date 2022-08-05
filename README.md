@@ -18,6 +18,9 @@ EXAMPLE:
     print(nn.predict(image)) #return the output with a input (False if is < 0.5 and True if is > 0.5)
 
 TO START:
+    
+    ON FIRST:
+        Download all of this library: pickle,matplotlib,sklearn,tqdm,numpy
 
     -To init you must send 'x' and 'y' list (or numpy array).
     'x' is your input and 'y' is your output.
