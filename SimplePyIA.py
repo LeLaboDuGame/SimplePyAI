@@ -8,7 +8,7 @@ color1 = '\033[92m'
 color2 = '\033[94m'
 
 print(
-    f"{color1}You use the library SimplePyAI !\n{color2} Credit: LeLaboDuGame on Twitch -> https://twitch.tv/LeLaboDuGame")
+    f"{color1}You use the library SimplePyAI !\n{color2}Credit: LeLaboDuGame on Twitch -> https://twitch.tv/LeLaboDuGame")
 
 
 
@@ -152,5 +152,3 @@ class Neural_Network:
         if show:
             self.show(Loss, acc)
         return y_pred
-
-Neural_Network
