@@ -2,7 +2,7 @@ Is a simple python library to use the concept of deep learning in your project (
 
 # SIMPLEPYAI
 Hey guy !
-I'm 15 years frensh dev !
+I'm 15 years and a frensh dev !
 I present you my project of neural network !
 Just for the credit : LeLaboDuGame on Twitch -> https://twitch.tv/LeLaboDuGame
 You can use this library on all your project !
