@@ -6,6 +6,7 @@ I'm 15 years frensh dev !
 I present you my project of neural network !
 Just for the credit : LeLaboDuGame on Twitch -> https://twitch.tv/LeLaboDuGame
 You can use this library on all your project !
+### Now it's possible to choose an activation function, to do that you can refer at the "sigmoid" function and the "derivation_sigmoid" function
 
 **The model use the sigmoïde activation function.**
 
@@ -17,9 +18,12 @@ You can use this library on all your project !
     
 ## EXAMPLE:
 
-    nn = Neural_Network(x, y, layers=[3600, 64, 32, 64, 1], learning_rate=0.001, reload_last_session=False)
-    nn.train(1300, show=True, save=True)
-    print(nn.predict(image)) #return the output with a input (False if is < 0.5 and True if is > 0.5)
+    x = [[1], [0]]
+    y = [[0], [1]]
+    nn = Neural_Network(x, y, layers=[1, 64, 32, 64, 1], learning_rate=0.001, activation_function=sigmoid,
+                        derivation=derivation_sigmoid, reload_last_session=False)
+    nn.train(10000, show=True)
+    print(nn.predict([[1], [0]]))  # predict values
 
 ## TO START:
 
