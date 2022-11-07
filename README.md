@@ -14,7 +14,7 @@ You can use this library on all your project !
     
     
 ### ON FIRST:
-    Download all of this library: pickle,matplotlib,sklearn,tqdm,numpy
+    Download all of this library: pickle,matplotlib,tqdm,numpy
     
 ## EXAMPLE:
 
