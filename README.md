@@ -1,3 +1,7 @@
+###THIS GIT IS NO UPDATE ! SEE TH PACKAGE ON PYPI ! THANKS TOU !
+
+
+
 Is a simple python library to use the concept of deep learning in your project (is verrrrrrryyyyyy simple for shur)
 
 # SIMPLEPYAI
